@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #959743;
+    background-color: #325f2b;
+    box-shadow: -3px -5px 46px 1px rgba(17,50,19,0.38) inset;
+-webkit-box-shadow: -3px -5px 46px 1px rgba(17,50,19,0.38) inset;
+-moz-box-shadow: -3px -5px 46px 1px rgba(17,50,19,0.38) inset;
+    
+}
+
+h1 {
+    color: #872f19;
+    background-color: #161718;
+    font-size: 130px;
+    border-style: solid;
+    border-color: #54473b;
+    border-radius: 10px 10px ;
+    border-width: 5px;
+    border-inline-start-color: #2e2921;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: 'VT323', monospace;
+}
+
+h3 {
+ color: #ecece3;
+ font-size: 35px;
+ 
+}
+
+
+
+#new-game-button {
+    margin-top: 140px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 13px;
+    border-radius: 200px;
+    border-width: 2px ;
+    border-color: black;
+    color: black;
+    background-color: olivedrab
+    
+}
+
+#new-game-button:hover {
+    background-color: #8f0702;
+    color: black;
+    font-weight:bold;
+    box-shadow: -3px -5px 31px -2px rgba(58,11,3,0.78) inset;
+-webkit-box-shadow: -3px -5px 31px -2px rgba(58,11,3,0.78) inset;
+-moz-box-shadow: -3px -5px 31px -2px rgba(58,11,3,0.78) inset;
+}
+
+
+
+button {
+    outline: none;
+    color: #e6f1f3;
+    font-weight:bold;
+    background-color: #0f0f3e;
+    border-color: #4c731c;
+    text-align: center;
+    border-radius: 5px 5px ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: -50px;
+    border-width: 4px;
+    
+    
+}
+
+
+button:hover {
+  background-color: green;
+  color: black;
+}   
