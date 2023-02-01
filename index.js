@@ -1,8 +1,8 @@
-let guestCount = 0 
+let awayCount = 0 
 let homeCount = 0
 
 let homePoints = document.getElementById("count-el-1")
-let guestPoints = document.getElementById("count-el-2")
+let awayPoints = document.getElementById("count-el-2")
 
 
 
@@ -22,26 +22,26 @@ function homeIncrementByThree() {
 }
 
 
-function guestIncrementByOne() {
-    guestCount += 1
-    guestPoints.textContent = guestCount;
+function awayIncrementByOne() {
+    awayCount += 1
+    awayPoints.textContent = awayCount;
 }
 
-function guestIncrementByTwo() {
-    guestCount += 2
-    guestPoints.textContent = guestCount;
+function awayIncrementByTwo() {
+    awayCount += 2
+    awayPoints.textContent = awayCount;
 }
 
-function guestIncrementByThree() {
-    guestCount += 3
-    guestPoints.textContent = guestCount;
+function awayIncrementByThree() {
+    awayCount += 3
+    awayPoints.textContent = awayCount;
 }
 
 
 function newGame() {
-    guestCount = 0
+    awayCount = 0
     homeCount = 0
-    guestPoints.textContent = guestCount;
+    awayPoints.textContent = awayCount;
     homePoints.textContent = homeCount;
     
 }
